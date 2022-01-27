@@ -1,4 +1,4 @@
-# Project CRUD with Angular 9 💻
+# Project CRUD with Angular 13 💻
 
 ### The objective this project is improve my knowledge of Angular 9.
 
