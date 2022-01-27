@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo {
+    max-width: 32px;
+}
+
+.header .title-group {
+    padding: 0 0 0 25px;
+}
+
+.header .title-group i {
+    padding: 0 5px 0 0;
+}
