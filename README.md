@@ -14,5 +14,5 @@ npm install
 
 ### Compile and reload the project 
 ```
-ng serve
+npm start
 ```
