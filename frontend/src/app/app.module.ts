@@ -27,6 +27,10 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './component/product/product-read/product-read.component';
+import { ProductRead2Component } from './component/product/product-read2/product-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
@@ -41,7 +45,8 @@ import { ProductReadComponent } from './component/product/product-read/product-r
     ProductCreateComponent,
     RedDirective,
     ForDirective,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductRead2Component
   ],
   imports: [
     BrowserModule,
@@ -56,7 +61,10 @@ import { ProductReadComponent } from './component/product/product-read/product-r
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
