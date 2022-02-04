@@ -30,6 +30,7 @@ import { ProductReadComponent } from './component/product/product-read/product-r
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { ProductUpdateComponent } from './component/product/product-update/product-update.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MatSortModule } from '@angular/material/sort';
     ProductCreateComponent,
     RedDirective,
     ForDirective,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
